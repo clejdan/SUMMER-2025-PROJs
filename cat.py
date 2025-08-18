@@ -1,10 +1,11 @@
 def main():
     try: 
-        x = float(input("What's x?"))
-        y = float(input("What's y?"))
+        x = float(input("X?"))
+        y = float(input("Y?"))
     except (ValueError):
         print("Numbers POR FAVOR!")
         pass 
+
 
 
 
